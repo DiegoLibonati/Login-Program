@@ -5,6 +5,8 @@
 1. Clone the repository
 2. Join to the correct path of the clone
 3. Use `python login_program.py` to execute program
+4. Start one window of CMD and run the command `mongod`
+5. Start another one window of CMD and run the command `mongo`
 
 ## Description
 
