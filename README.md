@@ -37,7 +37,7 @@ I made a python program using tkinter as user interface. Basically I made a logi
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Login%20program`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Login%20Program`
 
 ## Video
 
