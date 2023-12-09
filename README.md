@@ -23,21 +23,9 @@ I made a python program using tkinter as user interface. Basically I made a logi
 3. werkzeug
 4. time
 
-## Galery
-
-![Login-program](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Python/Imagenes/loginpython-0.jpg)
-
-![Login-program](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Python/Imagenes/loginpython-1.jpg)
-
-![Login-program](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Python/Imagenes/loginpython-2.jpg)
-
-![Login-program](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Python/Imagenes/loginpython-3.jpg)
-
-![Login-program](https://raw.githubusercontent.com/DiegoLibonati/DiegoLibonatiWeb/main/data/projects/Python/Imagenes/loginpython-4.jpg)
-
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Login%20Program`
+[`https://www.diegolibonati.com.ar/#/project/56`](https://www.diegolibonati.com.ar/#/project/56)
 
 ## Video
 
