@@ -1,7 +1,10 @@
 from tkinter import *
-from pymongo import MongoClient
-from werkzeug.security import generate_password_hash, check_password_hash
+
 from time import sleep
+from werkzeug.security import generate_password_hash, check_password_hash
+
+from pymongo import MongoClient
+
 
 root = Tk()
 root.title('Login')
@@ -33,7 +36,8 @@ Label(root, textvariable=confirm_text_label, font=("Roboto 13"), bg="#141B41", f
 Button(root,text="Login", width=15, bg="#141B41", fg="#fff", command=lambda:login()).place(x=200, y=300, anchor="center")
 Button(root,text="Register", width=15, bg="#141B41", fg="#fff", command=lambda:window_register()).place(x=200, y=340, anchor="center")
 
-def window_register():
+
+def window_register() -> None:
     win = Toplevel()
     win.title('Register')
     win.geometry('400x400')
@@ -67,7 +71,7 @@ def window_register():
 
     Button(win,text="Register", width=15, bg="#141B41", fg="#fff", command=lambda:register()).place(x=200, y=340, anchor="center")
 
-    def register():
+    def register() -> None:
         user = entry_user.get()
         password = password_user.get()
         confirm_password = confirm_password_user.get()
@@ -83,7 +87,8 @@ def window_register():
             sleep(5)
             win.destroy()
 
-def login():
+
+def login() -> None:
     user = entry_user.get()
     password = password_user.get()
 
@@ -97,7 +102,10 @@ def login():
         else:
             confirm_text_label.set("Invalid password")
 
-def program(user):
+
+def program(
+    user: str
+) -> None:
     win = Toplevel()
     win.title('Program')
     win.geometry('200x200')
@@ -107,5 +115,6 @@ def program(user):
     confirm_text_label = StringVar(value=f"Welcome {user}")
 
     Label(win, textvariable=confirm_text_label, font=("Roboto 13"), bg="#141B41", fg="#fff").place(x=100, y=100, anchor="center")
+
 
 root.mainloop()

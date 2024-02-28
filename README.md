@@ -4,9 +4,10 @@
 
 1. Clone the repository
 2. Join to the correct path of the clone
-3. Use `python login_program.py` to execute program
-4. Start one window of CMD and run the command `mongod`
-5. Start another one window of CMD and run the command `mongo`
+3. Install requirements.txt
+4. Use `python ./src/app.py` to execute program
+5. Start one window of CMD and run the command `mongod`
+6. Start another one window of CMD and run the command `mongo`
 
 ## Description
 
@@ -45,11 +46,11 @@ db = client.login_app
 The `register()` function will allow us to register through the relevant validations:
 
 ```
-def register():
+def register() -> None:
     user = entry_user.get()
     password = password_user.get()
     confirm_password = confirm_password_user.get()
-
+    
     if not user and not user.isspace():
         confirm_text_label.set("Invalid user.")
     elif password != confirm_password:
@@ -65,7 +66,7 @@ def register():
 The `login()` function will allow us to log in if the user exists in the database and if the password is correct:
 
 ```
-def login():
+def login() -> None:
     user = entry_user.get()
     password = password_user.get()
 
