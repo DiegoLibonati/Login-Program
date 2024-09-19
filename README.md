@@ -1,4 +1,4 @@
-# Login-Program
+# Login Program
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ I made a python program using tkinter as user interface. Basically I made a logi
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/56`](https://www.diegolibonati.com.ar/#/project/56)
+[`https://www.diegolibonati.com.ar/#/project/Login-Program`](https://www.diegolibonati.com.ar/#/project/Login-Program)
 
 ## Video
 
