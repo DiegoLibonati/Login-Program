@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  login-db:
+    image: mongo:7
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DB_NAME}
+    volumes:
+      - db-data:/data/db
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
+    
+volumes:
+  db-data:
+    driver: local
