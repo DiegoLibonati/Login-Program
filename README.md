@@ -31,6 +31,7 @@ I made a python program using tkinter as user interface. Basically I made a logi
 ## Technologies used
 
 1. Python
+2. Docker
 
 ## Libraries used
 
