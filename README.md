@@ -30,8 +30,9 @@ I made a python program using tkinter as user interface. Basically I made a logi
 
 ## Technologies used
 
-1. Python
+1. Python >= 3.11
 2. Docker
+3. MongoDB
 
 ## Libraries used
 
